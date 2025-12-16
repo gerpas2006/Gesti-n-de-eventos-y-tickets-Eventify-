@@ -1,5 +1,6 @@
 package com.salesianostriana.dam.Gestion_de_eventos_y_tickets.Model;
 
+import com.salesianostriana.dam.Gestion_de_eventos_y_tickets.Model.Enum.Role;
 import jakarta.persistence.*;
 import lombok.*;
 

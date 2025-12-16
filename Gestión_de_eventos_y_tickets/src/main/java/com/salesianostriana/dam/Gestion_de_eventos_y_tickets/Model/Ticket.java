@@ -1,10 +1,10 @@
 package com.salesianostriana.dam.Gestion_de_eventos_y_tickets.Model;
 
+import com.salesianostriana.dam.Gestion_de_eventos_y_tickets.Model.Enum.Type;
 import jakarta.persistence.*;
 import lombok.*;
 
 import java.time.LocalDateTime;
-import java.util.List;
 
 @Getter
 @Setter
