@@ -20,7 +20,7 @@ public class Organizer {
     @Id
     private Long id;
 
-    private String nombre;
+    private String name;
     private String email;
 
     @OneToMany(mappedBy = "organizer", cascade = CascadeType.ALL)
