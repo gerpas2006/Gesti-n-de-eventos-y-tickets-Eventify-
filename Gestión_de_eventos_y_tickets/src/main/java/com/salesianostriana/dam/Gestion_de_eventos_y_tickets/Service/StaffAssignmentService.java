@@ -18,11 +18,11 @@ public class StaffAssignmentService {
     private EventRepository eventRepository;
     private AttendeeRepository attendeeRepository;
 
-    public StaffAssignment crearStaff(Long event_id, Long attendee_id, StaffAssignment staffAssignment){
-        Event event = eventRepository.findById(event_id).orElseThrow(
-                (() -> new EntityNotFoundException("Organizer not found")));
-        Attendee attendee = attendeeRepository.findById(attendee_id).orElseThrow(
-                (() -> new EntityNotFoundException("Organizer not found")));
-        
-    }
+//    public StaffAssignment crearStaff(Long event_id, Long attendee_id, StaffAssignment staffAssignment){
+//        Event event = eventRepository.findById(event_id).orElseThrow(
+//                (() -> new EntityNotFoundException("Organizer not found")));
+//        Attendee attendee = attendeeRepository.findById(attendee_id).orElseThrow(
+//                (() -> new EntityNotFoundException("Organizer not found")));
+//
+//    }
 }
